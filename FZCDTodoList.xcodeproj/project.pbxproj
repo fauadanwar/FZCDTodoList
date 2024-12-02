@@ -21,6 +21,7 @@
 		A459E9E22CFCB50A005DEE0D /* FZCDListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459E9E12CFCB50A005DEE0D /* FZCDListViewModel.swift */; };
 		A459E9E42CFCB527005DEE0D /* FZCDItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459E9E32CFCB527005DEE0D /* FZCDItemViewModel.swift */; };
 		A459E9E62CFCB579005DEE0D /* FZCDListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459E9E52CFCB579005DEE0D /* FZCDListItemView.swift */; };
+		A459E9E82CFDB15E005DEE0D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A459E9E72CFDB15E005DEE0D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		A459E9E12CFCB50A005DEE0D /* FZCDListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZCDListViewModel.swift; sourceTree = "<group>"; };
 		A459E9E32CFCB527005DEE0D /* FZCDItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZCDItemViewModel.swift; sourceTree = "<group>"; };
 		A459E9E52CFCB579005DEE0D /* FZCDListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZCDListItemView.swift; sourceTree = "<group>"; };
+		A459E9E72CFDB15E005DEE0D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		A459E9A12CFCA416005DEE0D = {
 			isa = PBXGroup;
 			children = (
+				A459E9E72CFDB15E005DEE0D /* README.md */,
 				A459E9AC2CFCA416005DEE0D /* FZCDTodoList */,
 				A459E9C22CFCA417005DEE0D /* FZCDTodoListTests */,
 				A459E9CC2CFCA417005DEE0D /* FZCDTodoListUITests */,
@@ -252,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A459E9E82CFDB15E005DEE0D /* README.md in Resources */,
 				A459E9B52CFCA417005DEE0D /* Preview Assets.xcassets in Resources */,
 				A459E9B22CFCA417005DEE0D /* Assets.xcassets in Resources */,
 			);
