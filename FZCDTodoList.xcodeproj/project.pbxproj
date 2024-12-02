@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A459E9AE2CFCA416005DEE0D /* FZCDTodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459E9AD2CFCA416005DEE0D /* FZCDTodoListApp.swift */; };
+		A459E9B02CFCA416005DEE0D /* FZCDListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459E9AF2CFCA416005DEE0D /* FZCDListView.swift */; };
+		A459E9B22CFCA417005DEE0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A459E9B12CFCA417005DEE0D /* Assets.xcassets */; };
+		A459E9B52CFCA417005DEE0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A459E9B42CFCA417005DEE0D /* Preview Assets.xcassets */; };
+		A459E9B72CFCA417005DEE0D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459E9B62CFCA417005DEE0D /* Persistence.swift */; };
+		A459E9BA2CFCA417005DEE0D /* FZCDTodoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A459E9B82CFCA417005DEE0D /* FZCDTodoList.xcdatamodeld */; };
+		A459E9C42CFCA417005DEE0D /* FZCDTodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459E9C32CFCA417005DEE0D /* FZCDTodoListTests.swift */; };
+		A459E9CE2CFCA417005DEE0D /* FZCDTodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459E9CD2CFCA417005DEE0D /* FZCDTodoListUITests.swift */; };
+		A459E9D02CFCA417005DEE0D /* FZCDTodoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459E9CF2CFCA417005DEE0D /* FZCDTodoListUITestsLaunchTests.swift */; };
+		A459E9DD2CFCB49B005DEE0D /* FZCDListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459E9DC2CFCB49B005DEE0D /* FZCDListModel.swift */; };
+		A459E9DF2CFCB4DB005DEE0D /* FZCDItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459E9DE2CFCB4DB005DEE0D /* FZCDItemModel.swift */; };
+		A459E9E22CFCB50A005DEE0D /* FZCDListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459E9E12CFCB50A005DEE0D /* FZCDListViewModel.swift */; };
+		A459E9E42CFCB527005DEE0D /* FZCDItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459E9E32CFCB527005DEE0D /* FZCDItemViewModel.swift */; };
+		A459E9E62CFCB579005DEE0D /* FZCDListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A459E9E52CFCB579005DEE0D /* FZCDListItemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A459E9C02CFCA417005DEE0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A459E9A22CFCA416005DEE0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A459E9A92CFCA416005DEE0D;
+			remoteInfo = FZCDTodoList;
+		};
+		A459E9CA2CFCA417005DEE0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A459E9A22CFCA416005DEE0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A459E9A92CFCA416005DEE0D;
+			remoteInfo = FZCDTodoList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A459E9AA2CFCA416005DEE0D /* FZCDTodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZCDTodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A459E9AD2CFCA416005DEE0D /* FZCDTodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZCDTodoListApp.swift; sourceTree = "<group>"; };
+		A459E9AF2CFCA416005DEE0D /* FZCDListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZCDListView.swift; sourceTree = "<group>"; };
+		A459E9B12CFCA417005DEE0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A459E9B42CFCA417005DEE0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A459E9B62CFCA417005DEE0D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A459E9B92CFCA417005DEE0D /* FZCDTodoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FZCDTodoList.xcdatamodel; sourceTree = "<group>"; };
+		A459E9BF2CFCA417005DEE0D /* FZCDTodoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZCDTodoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A459E9C32CFCA417005DEE0D /* FZCDTodoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZCDTodoListTests.swift; sourceTree = "<group>"; };
+		A459E9C92CFCA417005DEE0D /* FZCDTodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZCDTodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A459E9CD2CFCA417005DEE0D /* FZCDTodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZCDTodoListUITests.swift; sourceTree = "<group>"; };
+		A459E9CF2CFCA417005DEE0D /* FZCDTodoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZCDTodoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A459E9DC2CFCB49B005DEE0D /* FZCDListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZCDListModel.swift; sourceTree = "<group>"; };
+		A459E9DE2CFCB4DB005DEE0D /* FZCDItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZCDItemModel.swift; sourceTree = "<group>"; };
+		A459E9E12CFCB50A005DEE0D /* FZCDListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZCDListViewModel.swift; sourceTree = "<group>"; };
+		A459E9E32CFCB527005DEE0D /* FZCDItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZCDItemViewModel.swift; sourceTree = "<group>"; };
+		A459E9E52CFCB579005DEE0D /* FZCDListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZCDListItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A459E9A72CFCA416005DEE0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A459E9BC2CFCA417005DEE0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A459E9C62CFCA417005DEE0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A459E9A12CFCA416005DEE0D = {
+			isa = PBXGroup;
+			children = (
+				A459E9AC2CFCA416005DEE0D /* FZCDTodoList */,
+				A459E9C22CFCA417005DEE0D /* FZCDTodoListTests */,
+				A459E9CC2CFCA417005DEE0D /* FZCDTodoListUITests */,
+				A459E9AB2CFCA416005DEE0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A459E9AB2CFCA416005DEE0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A459E9AA2CFCA416005DEE0D /* FZCDTodoList.app */,
+				A459E9BF2CFCA417005DEE0D /* FZCDTodoListTests.xctest */,
+				A459E9C92CFCA417005DEE0D /* FZCDTodoListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A459E9AC2CFCA416005DEE0D /* FZCDTodoList */ = {
+			isa = PBXGroup;
+			children = (
+				A459E9AD2CFCA416005DEE0D /* FZCDTodoListApp.swift */,
+				A459E9DC2CFCB49B005DEE0D /* FZCDListModel.swift */,
+				A459E9E12CFCB50A005DEE0D /* FZCDListViewModel.swift */,
+				A459E9AF2CFCA416005DEE0D /* FZCDListView.swift */,
+				A459E9DE2CFCB4DB005DEE0D /* FZCDItemModel.swift */,
+				A459E9E32CFCB527005DEE0D /* FZCDItemViewModel.swift */,
+				A459E9E52CFCB579005DEE0D /* FZCDListItemView.swift */,
+				A459E9B12CFCA417005DEE0D /* Assets.xcassets */,
+				A459E9B62CFCA417005DEE0D /* Persistence.swift */,
+				A459E9B82CFCA417005DEE0D /* FZCDTodoList.xcdatamodeld */,
+				A459E9B32CFCA417005DEE0D /* Preview Content */,
+			);
+			path = FZCDTodoList;
+			sourceTree = "<group>";
+		};
+		A459E9B32CFCA417005DEE0D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A459E9B42CFCA417005DEE0D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A459E9C22CFCA417005DEE0D /* FZCDTodoListTests */ = {
+			isa = PBXGroup;
+			children = (
+				A459E9C32CFCA417005DEE0D /* FZCDTodoListTests.swift */,
+			);
+			path = FZCDTodoListTests;
+			sourceTree = "<group>";
+		};
+		A459E9CC2CFCA417005DEE0D /* FZCDTodoListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A459E9CD2CFCA417005DEE0D /* FZCDTodoListUITests.swift */,
+				A459E9CF2CFCA417005DEE0D /* FZCDTodoListUITestsLaunchTests.swift */,
+			);
+			path = FZCDTodoListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A459E9A92CFCA416005DEE0D /* FZCDTodoList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A459E9D32CFCA417005DEE0D /* Build configuration list for PBXNativeTarget "FZCDTodoList" */;
+			buildPhases = (
+				A459E9A62CFCA416005DEE0D /* Sources */,
+				A459E9A72CFCA416005DEE0D /* Frameworks */,
+				A459E9A82CFCA416005DEE0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FZCDTodoList;
+			productName = FZCDTodoList;
+			productReference = A459E9AA2CFCA416005DEE0D /* FZCDTodoList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A459E9BE2CFCA417005DEE0D /* FZCDTodoListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A459E9D62CFCA417005DEE0D /* Build configuration list for PBXNativeTarget "FZCDTodoListTests" */;
+			buildPhases = (
+				A459E9BB2CFCA417005DEE0D /* Sources */,
+				A459E9BC2CFCA417005DEE0D /* Frameworks */,
+				A459E9BD2CFCA417005DEE0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A459E9C12CFCA417005DEE0D /* PBXTargetDependency */,
+			);
+			name = FZCDTodoListTests;
+			productName = FZCDTodoListTests;
+			productReference = A459E9BF2CFCA417005DEE0D /* FZCDTodoListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A459E9C82CFCA417005DEE0D /* FZCDTodoListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A459E9D92CFCA417005DEE0D /* Build configuration list for PBXNativeTarget "FZCDTodoListUITests" */;
+			buildPhases = (
+				A459E9C52CFCA417005DEE0D /* Sources */,
+				A459E9C62CFCA417005DEE0D /* Frameworks */,
+				A459E9C72CFCA417005DEE0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A459E9CB2CFCA417005DEE0D /* PBXTargetDependency */,
+			);
+			name = FZCDTodoListUITests;
+			productName = FZCDTodoListUITests;
+			productReference = A459E9C92CFCA417005DEE0D /* FZCDTodoListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A459E9A22CFCA416005DEE0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A459E9A92CFCA416005DEE0D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A459E9BE2CFCA417005DEE0D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A459E9A92CFCA416005DEE0D;
+					};
+					A459E9C82CFCA417005DEE0D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A459E9A92CFCA416005DEE0D;
+					};
+				};
+			};
+			buildConfigurationList = A459E9A52CFCA416005DEE0D /* Build configuration list for PBXProject "FZCDTodoList" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A459E9A12CFCA416005DEE0D;
+			productRefGroup = A459E9AB2CFCA416005DEE0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A459E9A92CFCA416005DEE0D /* FZCDTodoList */,
+				A459E9BE2CFCA417005DEE0D /* FZCDTodoListTests */,
+				A459E9C82CFCA417005DEE0D /* FZCDTodoListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A459E9A82CFCA416005DEE0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A459E9B52CFCA417005DEE0D /* Preview Assets.xcassets in Resources */,
+				A459E9B22CFCA417005DEE0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A459E9BD2CFCA417005DEE0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A459E9C72CFCA417005DEE0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A459E9A62CFCA416005DEE0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A459E9DD2CFCB49B005DEE0D /* FZCDListModel.swift in Sources */,
+				A459E9E22CFCB50A005DEE0D /* FZCDListViewModel.swift in Sources */,
+				A459E9E62CFCB579005DEE0D /* FZCDListItemView.swift in Sources */,
+				A459E9B72CFCA417005DEE0D /* Persistence.swift in Sources */,
+				A459E9B02CFCA416005DEE0D /* FZCDListView.swift in Sources */,
+				A459E9E42CFCB527005DEE0D /* FZCDItemViewModel.swift in Sources */,
+				A459E9DF2CFCB4DB005DEE0D /* FZCDItemModel.swift in Sources */,
+				A459E9BA2CFCA417005DEE0D /* FZCDTodoList.xcdatamodeld in Sources */,
+				A459E9AE2CFCA416005DEE0D /* FZCDTodoListApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A459E9BB2CFCA417005DEE0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A459E9C42CFCA417005DEE0D /* FZCDTodoListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A459E9C52CFCA417005DEE0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A459E9CE2CFCA417005DEE0D /* FZCDTodoListUITests.swift in Sources */,
+				A459E9D02CFCA417005DEE0D /* FZCDTodoListUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A459E9C12CFCA417005DEE0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A459E9A92CFCA416005DEE0D /* FZCDTodoList */;
+			targetProxy = A459E9C02CFCA417005DEE0D /* PBXContainerItemProxy */;
+		};
+		A459E9CB2CFCA417005DEE0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A459E9A92CFCA416005DEE0D /* FZCDTodoList */;
+			targetProxy = A459E9CA2CFCA417005DEE0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A459E9D12CFCA417005DEE0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A459E9D22CFCA417005DEE0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A459E9D42CFCA417005DEE0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FZCDTodoList/Preview Content\"";
+				DEVELOPMENT_TEAM = 93FK67534U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fz..FZCDTodoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A459E9D52CFCA417005DEE0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FZCDTodoList/Preview Content\"";
+				DEVELOPMENT_TEAM = 93FK67534U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fz..FZCDTodoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A459E9D72CFCA417005DEE0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93FK67534U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fz..FZCDTodoListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FZCDTodoList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FZCDTodoList";
+			};
+			name = Debug;
+		};
+		A459E9D82CFCA417005DEE0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93FK67534U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fz..FZCDTodoListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FZCDTodoList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FZCDTodoList";
+			};
+			name = Release;
+		};
+		A459E9DA2CFCA417005DEE0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93FK67534U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fz..FZCDTodoListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FZCDTodoList;
+			};
+			name = Debug;
+		};
+		A459E9DB2CFCA417005DEE0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93FK67534U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fz..FZCDTodoListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FZCDTodoList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A459E9A52CFCA416005DEE0D /* Build configuration list for PBXProject "FZCDTodoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A459E9D12CFCA417005DEE0D /* Debug */,
+				A459E9D22CFCA417005DEE0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A459E9D32CFCA417005DEE0D /* Build configuration list for PBXNativeTarget "FZCDTodoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A459E9D42CFCA417005DEE0D /* Debug */,
+				A459E9D52CFCA417005DEE0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A459E9D62CFCA417005DEE0D /* Build configuration list for PBXNativeTarget "FZCDTodoListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A459E9D72CFCA417005DEE0D /* Debug */,
+				A459E9D82CFCA417005DEE0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A459E9D92CFCA417005DEE0D /* Build configuration list for PBXNativeTarget "FZCDTodoListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A459E9DA2CFCA417005DEE0D /* Debug */,
+				A459E9DB2CFCA417005DEE0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A459E9B82CFCA417005DEE0D /* FZCDTodoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A459E9B92CFCA417005DEE0D /* FZCDTodoList.xcdatamodel */,
+			);
+			currentVersion = A459E9B92CFCA417005DEE0D /* FZCDTodoList.xcdatamodel */;
+			path = FZCDTodoList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A459E9A22CFCA416005DEE0D /* Project object */;
+}
