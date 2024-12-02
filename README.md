@@ -36,7 +36,10 @@ FZTodoList is a multi-platform to-do list application built with **SwiftUI**, **
 
 ### Screenshots
 
-_Add screenshots here showcasing the application's features._
+_![VisionOS](https://github.com/user-attachments/assets/f0533db0-3df2-4aeb-8658-83de86dc66d9)
+![lists](https://github.com/user-attachments/assets/43ed2f0e-bb5c-4d98-b18d-4a039d6c8600)
+![list items](https://github.com/user-attachments/assets/715747d4-c2d7-4565-98ff-a4f0ff770ca0)
+
 
 ### Getting Started
 
